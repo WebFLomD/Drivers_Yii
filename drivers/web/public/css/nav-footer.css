@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+/* НАВИГАТОР */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 6%;
+    height: 110px;
+}
+
+header li a{
+    font-family: 'Montserrat', sans-serif; /* Установка шрифта*/
+    font-weight: 500; /* Задает вес. Доступные веса зависят от семейства шрифтов, которое установлено в данный момент*/
+    font-size: 22px; /* Размер шрифта*/
+    color: #606060; /* Цвет текста */
+
+    text-decoration: none;
+
+    transition: .4s;
+}
+
+header nav ul{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header nav ul li{
+    position: relative;
+    padding: 15px;
+    list-style-type: none;
+}
+
+
+header nav ul li a:hover{
+    color: #ff7800;
+    transition: .4s;
+}
+
+.btn-login a{
+    border: #606060 solid 2.5px;
+    border-radius: 16px;
+    padding: 13px 20px;
+}
+
+.btn-login a:hover{
+    border: #0077FF solid 2.5px;
+    color: #fff;
+    background-color: #0077FF;
+}
+
+.btn-submit-an-ad a{
+    background-color: #0077FF;
+    color: #fff;
+
+    border-radius: 16px;
+    padding: 13px 20px;
+}
+
+.btn-submit-an-ad a:hover{
+    background-color: #004da0;
+    color: #fff;
+}
+
+.navigator{
+    width: auto;
+    flex-shrink: 0;
+    
+    background: #F1F1F1;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.logo-navigator img{
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.fa-chevron-down{
+    font-size: 18px;
+}
+
+/* ШТОРКА */
+
+header nav ul li ul{
+    z-index: 1;
+
+    position: absolute;
+
+    top: 55px;
+    left: 0;
+    display: block;
+    background: #F1F1F1;
+    
+    min-width: 300px;
+    width: auto;
+    border-radius: 20px;
+
+    text-align: center;
+    
+    background: #F1F1F1;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+
+
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+header nav ul li ul a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+header nav ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ПОДВАЛ */
+
+.footer{
+    background-color: #222222;
+    width: auto;
+    height: auto;
+}
+
+.footer-all{
+    display: flex;
+
+    color:#ADADAD;
+    justify-content: space-around;
+
+    padding: 50px 60px;
+}
+
+.footer-block-all-title{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif; /* Установка шрифта*/
+    font-weight: 500; /* Задает вес. Доступные веса зависят от семейства шрифтов, которое установлено в данный момент*/
+    color: #fff; /* Цвет текста */
+
+    margin-bottom: 0;
+
+    text-decoration: underline;
+}
+
+
+.footer-block-left{
+    width: 400px;
+}
+
+.about-cooperation{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif; /* Установка шрифта*/
+    font-weight: 500; /* Задает вес. Доступные веса зависят от семейства шрифтов, которое установлено в данный момент*/
+    color: #ADADAD; /* Цвет текста */
+}
+
+.about-cooperation p{
+    margin: 12px 0;
+}
+
+.logo-site{
+    display: flex;
+    margin-top: 12px;
+}
+
+.logo-site a{
+    margin-right: 15px;
+}
+
+.icon-logo-site-vk{
+    display: grid;
+    place-items: center;
+
+    background-color: #0077FF;
+    width: 50px;
+    height: 50px;
+
+
+    border-radius: 40px;
+}
+
+.icon-logo-site-tg{
+    display: grid;
+    place-items: center;
+
+    background-color: #2AABEE;
+    width: 50px;
+    height: 50px;
+
+
+    border-radius: 40px;
+}
+
+.icon-logo-site-ok{
+    display: grid;
+    place-items: center;
+
+    background-color: #F96E04;
+    width: 50px;
+    height: 50px;
+
+
+    border-radius: 40px;
+}
+
+#icon-site-vk{
+    width: 30px;
+}
+
+#icon-site-tg{
+    width: 26px;
+}
+
+#icon-site-ok{
+    width: 20px;
+}
+
+.logo-footer img{
+    width: 190px;
+    flex-shrink: 0;
+}
+
+
+.footer-block-center-right{
+    /* width: 620px; */
+    height: auto;
+}
+
+.footer-block-center-right ul{
+    padding: 0;
+}
+
+.footer-block-center-right ul li{
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.footer-block-center-right ul li a{
+    text-decoration: none;
+    color: #ADADAD;
+    
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif; /* Установка шрифта*/
+    font-weight: 400;
+}
+
+.footer-block-center-right ul li a:hover{
+    color: #ff7800;
+    transition: .6s;
+}
+
+.footer-navigator-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-navigator-flex ul{
+    padding-right: 20px;
+}
+
+.block-rights-reserved{
+    padding: 20px;
+}
+
+.block-rights-reserved p{
+    margin: 0;
+
+    color: #ADADAD;
+    text-align: center;
+    font-size: 14px;
+}

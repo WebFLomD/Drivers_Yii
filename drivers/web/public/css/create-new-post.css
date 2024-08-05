@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+.block-create-new{
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    justify-content: center;
+
+
+    width: 650px;
+    height: auto;
+
+    border-radius: 20px;
+    background: #FFF;
+
+    box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.65);
+}
+
+.new-create-left-input{
+    display: block;
+    padding: 0;
+    margin: auto;
+    position: relative;
+}
+
+.title-new-create{
+    text-align: center;
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.input-all-new-create{
+    text-align: center;
+    width: 500px;
+    height: 35px;
+
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-radius: 7px;
+    border: 1px solid #000;
+}
+
+.input-all-new-create-text{
+    text-align: left;
+    min-width: 500px;
+    max-width: 500px;
+    height: 100px;
+}
+
+.input-file-new-create{
+    text-align: center;
+    width: 500px;
+    height: 35px;
+
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-all-new-create{
+    margin-bottom: 5px;
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn-new-create{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-new-create button{
+    margin: 25px 0;
+    display: block;
+
+    width: 505px;
+    height: 35px;
+    flex-shrink: 0;
+
+    border-radius: 7px;
+    border: 1px solid #000;
+    background: none;
+
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    transition: .5s;
+}
+
+.btn-new-create button:hover{
+    color: #FFF;
+    background-color: #1485FF;
+    border: none;
+
+    transition: .5s;
+}

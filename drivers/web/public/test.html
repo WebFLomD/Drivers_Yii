@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Загрузка и отображение нескольких изображений</title>
+<style>
+    .image-preview {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .image-preview-item {
+        width: 100px;
+        height: 100px;
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .image-preview-item img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .image-preview-item .close-button {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+        background-color: #fff;
+        padding: 5px;
+    }
+</style>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <input type="file" id="image-upload" name="image-upload" accept="image/*" multiple>
+        <div class="image-preview" id="image-preview">
+        </div>
+    </form>
+
+    <script>
+        const input = document.getElementById('image-upload');
+        const preview = document.getElementById('image-preview');
+
+        input.addEventListener('change', function () {
+            const files = input.files;
+            if (files) {
+                Array.from(files).forEach(file => {
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        const imagePreviewItem = document.createElement('div');
+                        imagePreviewItem.classList.add('image-preview-item');
+                        const image = document.createElement('img');
+                        image.src = e.target.result;
+                        const closeButton = document.createElement('div');
+                        closeButton.classList.add('close-button');
+                        closeButton.textContent = 'X';
+                        closeButton.addEventListener('click', function () {
+                            preview.removeChild(imagePreviewItem);
+                        });
+
+                        imagePreviewItem.appendChild(image);
+                        imagePreviewItem.appendChild(closeButton);
+                        preview.appendChild(imagePreviewItem);
+                    }
+                    reader.readAsDataURL(file);
+                });
+            }
+        })
+    </script>
+</body>
+</html>

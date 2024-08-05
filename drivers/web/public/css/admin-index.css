@@ -1,0 +1,145 @@
+.index-admin{
+    margin: 50px;
+}
+
+.btn-admin{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.btn-admin a{
+    margin: 20px;
+    padding: 20px 30px;
+    width: auto;
+    height: auto;
+
+    border-radius: 20px;
+
+    background-color: #0077FF;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+
+    transition: .5s;
+
+    &:hover{
+        background-color: #004da0;
+    }
+}
+
+.btn-admin-management{
+    margin-right: 5px;
+}
+
+.btn-admin-management i{
+    transition: .5s;
+    &:hover {
+        color: #0077FF;
+    }
+}
+
+.add-btn-title-admin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-btn-title-admin a{
+    font-size: 30px;
+    color: black;
+    transition: .5s;
+
+    &:hover{
+        color: #0077FF;
+    }
+}
+
+.post-admin{
+    margin: 50px;
+}
+
+.status-btn-post-admin{
+    margin-right: 15px;
+    padding: 18px 30px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    background-color: #0077FF;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 0;
+    transition: .5s;
+
+    cursor: pointer;
+
+    &:hover{
+        background-color: #004da0;;
+    }
+}
+
+.content{
+    display: none;
+}
+
+.content.active{
+    display: block;
+}
+
+.btn-post-car-try a{
+    display: flex;
+    border-radius: 10px;
+    width: auto;
+    height: 40px;
+    transition: .5s;
+    text-decoration: none;
+    margin: auto;
+    color: #606060 ;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    border: #606060 solid 2.5px;
+
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+        background-color: green;
+        border: green solid 2.5px;
+        color: #fff;
+    }
+}
+
+.btn-post-car-false a{
+    display: flex;
+    border-radius: 10px;
+    width: auto;
+    height: 40px;
+    transition: .5s;
+    text-decoration: none;
+    margin: auto;
+    color: #606060 ;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    border: #606060 solid 2.5px;
+
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+        background-color: #d40000;
+        border: #d40000 solid 2.5px;
+        color: #fff;
+    }
+}
+
+
+

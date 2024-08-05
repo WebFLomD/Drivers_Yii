@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+.block-new{
+    margin: 50px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-left-new-btn{
+    width: 16.5%;
+}
+
+.block-left-new{
+    /* display: block; */
+
+    position: sticky;
+    top: 30px;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+    border-radius: 13px;
+    /*width: 16.5%;*/
+    /*height: 220px;*/
+    background: #F1F1F1;
+
+    box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.65);
+
+}
+
+.title-new p{
+    margin: 10px 0px;
+
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-create-new-post{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-create-new-post button{
+    text-align: center;
+    background: #0077FF;
+    border-radius: 15px;
+    border: 0;
+
+    width: 800px;
+
+    cursor: pointer;
+
+    padding: 15px;
+    margin: 10px 0px;
+
+    text-align: center;
+
+    color: #fff;
+    text-decoration: none;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn-create-new-post button:hover{
+    background-color: #004da0;
+    transition: .5s;
+}
+
+.my-new-post{
+    display: flex;
+    justify-content: center;
+}
+
+.my-new-post button{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* background: #0077FF; */
+    border-radius: 15px;
+    border: 2.4px solid #606060;
+
+    width: 800px;
+    height: 60px;
+
+    cursor: pointer;
+
+    padding: 15px;
+    margin: 10px 0px;
+
+    text-align: center;
+
+    color: #606060;
+    text-decoration: none;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.img-user-new{
+    overflow: hidden;
+    /* background-color: rgb(116, 116, 116); */
+    width: 40px;
+    height: 40px;
+
+    border-radius: 30px;
+}
+
+.img-user-new img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    /*max-width: 600px;
+    min-width: 600px;*/
+}
+
+.my-new-post button:hover{
+    background-color: #d8d8d8;
+    /* border: 2.4px solid #d8d8d8; */
+
+    transition: 0.5s;
+}
+
+
+
+.info-only-new-post{
+    /* background-color: #B8B8B8;
+    width: 200px;
+    height: 600px; */
+
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 15px 30px;
+    padding: 20px;
+    border-radius: 13px;
+    width: auto;
+    height: auto;
+    background: #F1F1F1;
+
+    box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.65);
+}
+
+.img-user-name-title-data-category-new-post{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.img-user-name-title-category-new-post{
+    display: flex;
+    align-items: center;
+}
+
+/* Фото пользователя */
+.img-user-create-new-post{
+    overflow: hidden;
+    
+    width: 60px;
+    height: 60px;
+    /* background-color: #606060; */
+
+    border-radius: 50px;
+}
+
+.img-user-create-new-post img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Имя и категория */
+
+.name-title-category-new-post{
+    margin-left: 10px;
+
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.name-title-category-new-post p{
+    margin: 0;
+}
+
+.name-title-category-new-post a{
+    font-size: 16px;
+    color: #606060;
+}
+
+.data-create-new-post p{
+    margin: 0;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Фото поста */
+
+.photo-new-post{
+    overflow: hidden;
+    /* background-color: rgb(116, 116, 116); */
+    width: 800px;
+    height: 400px;
+
+    border-radius: 25px;
+}
+
+.photo-new-post img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* border-radius: 10px; */
+    align-items: center;
+    justify-content: center;
+    /*max-width: 600px;
+    min-width: 600px;*/
+}
+
+/* Просмотры */
+
+.like-views-data-post-new{
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+    margin: 15px 5px;
+
+    font-size: 16px;
+    color: #888888;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.like-views-new-post{
+    display: flex;
+
+    align-items: center;
+}
+
+.quantity-like{
+    margin: 0;
+    margin-left: 3px;
+}
+
+.views-new-post{
+    margin: 0;
+    margin-left: 5px;
+}
+
+.like-comments-btn-post-new{
+    display: flex;
+}
+
+/* ЛАЙК */
+
+.like-container {
+    display: flex;
+    align-items: center;
+}
+
+.like-new-post{
+    display: flex;
+    align-items: center;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    color: #606060;
+
+    transition: .4s;
+}
+
+.like-new-post p{
+    margin: 0;
+    margin-left: 5px;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.like-new-post i{
+    font-size: 20px;
+}
+
+.like-new-post:hover{
+    border: 1px solid #d40000;
+    background-color: #d40000;
+
+    color: #fff;
+    
+    transition: .5s;
+}
+
+.like-icon {
+    width: auto;
+    height: auto;
+
+    background-size: cover;
+    cursor: pointer;
+}
+
+.like-icon{
+    text-decoration: none;
+}
+
+.liked p{
+    color: #ffffff;
+
+    transition: .5s;
+}
+
+.liked i{
+    color: #ffffff;
+
+    transition: .2s;
+}
+
+.liked{
+    border: 1px solid #d40000;
+    background-color: #d40000;
+
+    transition: .5s;
+
+    &:hover{
+        border: 1px solid #b50000;
+        background-color: #b50000;
+
+        transition: .5s;
+    }
+}
+
+
+
+.comments-new-post{
+    display: flex;
+    align-items: center;
+    
+    margin-left: 10px;
+
+    text-decoration: none;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    color: #606060;
+
+    transition: .4s;
+}
+
+.comments-new-post p{
+    margin: 0;
+    margin-left: 5px;
+
+    text-decoration: none;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.comments-new-post i{
+    font-size: 19px;
+}
+
+.comments-new-post:hover{
+    cursor: pointer;
+
+    border: 1px solid #0077FF;
+    background-color: #0077FF;
+
+    color: #fff;
+    
+    transition: .2s;
+}
+
+.delete-new-post{
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+
+    text-decoration: none;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    color: #606060;
+
+    transition: .4s;
+
+    &:hover{
+        cursor: pointer;
+
+        border: 1px solid #b50000;
+        background-color: #b50000;
+
+        color: #fff;
+
+        transition: .2s;
+    }
+}
+
+.delete-new-post p{
+    margin: 0;
+    margin-left: 5px;
+
+    text-decoration: none;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.comments-new-post i{
+    font-size: 19px;
+}
+
+
+.title-new-post h1{
+
+    width: 800px;
+    margin: 0;
+    margin-top: 20px;
+
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.content-new-post p{
+    width: 780px;
+    margin: 10px;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    text-align: justify;
+}
+
+.block-null-new-post{
+    display: flex;
+    margin: auto;
+    /* background: #717171; */
+    width: 840px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-null-new-post p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+
+/*  */
+
+.img-name-date-comments{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-name-user-comments{
+    display: flex;
+    align-items: center;
+}
+
+.img-name-user-comments p{
+    margin: 0;
+    margin-left: 10px;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.data-register-comments{
+    margin: 0;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    color: #888888;
+}
+
+
+.img-user-new-comments{
+    overflow: hidden;
+    /* background-color: rgb(116, 116, 116); */
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.img-user-new-comments img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.comments-text{
+    width: 780px;
+    margin: 10px;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    text-align: justify;
+}
+
+
+.input-comments-post-new{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.input-comments-post-new button{
+    background: none;
+    border: 0;
+
+    cursor: pointer;
+    color: #606060;
+    font-size: 24px;
+
+    transition: .3s;
+
+    &:hover{
+        color: #0077FF;
+    }
+}
+
+.input-comments{
+    display: flex;
+    width: 750px;
+    height: 30px;
+    padding: 5px;
+
+    border-radius: 10px;
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    border-radius: 10px;
+    border: 1px solid #000;
+
+    transition: .5s;
+}
+
+.input-comments input{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+
+/* РЕКЛАМА */
+
+
+.advertisement-post{
+    position: sticky;
+
+    overflow: hidden;
+
+    top: 30px;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 15px 15px;
+    padding: 20px;
+    border-radius: 13px;
+    width: 400px;
+    height: auto;
+    background: #F1F1F1;
+
+    box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.65);
+}
+
+.advertisement-post a img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    /*max-width: 600px;
+    min-width: 600px;*/
+}

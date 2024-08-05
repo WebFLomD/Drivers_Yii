@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+.post{
+    margin: 0;
+    padding: 50px;
+    display: block;
+    position: relative;
+}
+
+.lvl-1{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-title-and-price-post{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-price-car-post{
+    padding: 0;
+    margin: 0;
+
+    color: #000;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.data-and-order-post{
+    margin: 5px 0;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    color: #888888;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.title-favourites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-favourites{
+    margin-left: 15px;
+
+    font-size: 26px;
+    color: #606060;
+    transition: .3s;
+
+    &:hover{
+        color: #d40000;
+        transition: .3s;
+    }
+}
+
+.active-favourites{
+    color: #d40000;
+    transition: .3s;
+
+
+    &:hover{
+        color: #b50000;
+
+        transition: .3s;
+    }
+}
+
+.lvl-2{
+    display: flex;
+    padding-top: 20px;
+    /* justify-content: space-between; */
+}
+
+.photo-car-post {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 13px;
+    width: 100%;
+    height: auto;
+    background: #F1F1F1;
+    overflow: hidden;
+    box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.65);
+    position: relative;
+}
+
+.image-car-post {
+    position: absolute;
+
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: opacity .5s ease;
+
+    &:active{
+        opacity: 1;
+    }
+}
+
+.img-slider-post-car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    color: #606060;
+    font-size: 50px;
+    transition: .5s;
+
+    z-index: 3;
+    cursor:pointer;
+
+
+    &:hover{
+        color: #0077FF;
+        transition: .5s;
+    }
+}
+
+.inform-cars{
+    display: flex;
+    padding: 10px 30px 30px;
+    justify-content: space-between;
+
+    width: 30%;
+    height: auto;
+
+    border-radius: 10px;
+    background: #F1F1F1;
+
+    box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.65);
+}
+
+.all-text-inform-car-left{
+    color: #7c7c7c;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+#text-info p{
+    margin: 0;
+    margin-top: 20px;
+}
+
+.all-text-inform-car-rigth{
+    color: #000;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact-seller{
+    margin-top: 30px;
+    background: #F1F1F1;
+    height: auto;
+    border-radius: 13px;
+    padding: 30px;
+
+    box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.65);
+}
+
+.name-adres-seller{
+    margin-left: 15px;
+}
+
+.name-seller{
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin: 5px 0;
+    padding: 0;
+}
+
+.adres-seller{ 
+    color: #888;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin: 5px 0;
+    padding: 0;
+}
+
+.title-contact-comments-seller p{
+    margin-top: 30px;
+    
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.info-contact-seller{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.img-name-adres-seller{
+    display: flex;
+    width: auto;
+    height: 70px;
+    align-items: center;
+    /*background: #b19797;*/
+}
+
+.img-name-adres-seller img{
+    object-fit: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 100%;
+}
+
+#rigth-contact-seller{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.phone-seller{
+    margin-right: 20px;
+
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.translationTel{
+    margin: 0;
+}
+
+
+.text-time-phone{
+    font-size: 18px;
+
+    color: #888;
+
+    margin: 0;
+    padding: 0;
+}
+
+.icons-btn-seller{
+    margin: auto;
+}
+
+.btn-seller{
+    width: 200px;
+    /* height: 70px; */
+
+    cursor: pointer;
+
+    color: #000;
+
+    padding: 15px;
+    border-radius: 15px;
+    border: 1.5px solid #000;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    text-decoration: none;
+}
+
+.btn-seller:hover{
+    color: #FFF;
+    border: 1.5px solid #1485FF;
+    background-color: #1485FF;
+
+    transition: .5s;
+}
+
+.comment-seller{
+    margin-top: 30px;
+    background: #F1F1F1;
+    height: auto;
+    border-radius: 13px;
+    padding: 30px;
+
+    box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.65);
+}
+
+.comment-seller p{
+    margin: 0;
+    text-align: justify;
+
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+

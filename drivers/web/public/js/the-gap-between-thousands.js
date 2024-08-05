@@ -1,0 +1,1 @@
+Array.from(document.getElementsByClassName('kakoytoclass'), e => e.textContent = e.textContent.replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '));

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/fon.css">
+    <link rel="stylesheet" href="css/form-auth-register.css">
+    <link rel="stylesheet" href="css/nav-footer.css">
+    <link href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.1-web/css/all.min.css" rel="stylesheet"> <!-- Профильная(Платная) Font Awesome -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+</head>
+<body>
+
+    <header class="navigator">
+        <div class="logo-navigator">
+            <a href="index.html"><img src="../all_img/logo_order/logo-dark.png" alt="logo"></a>
+        </div>
+        <nav>
+            <ul class="nav-links-text">
+                <li>
+                    <a href="index.html">Техника</a>
+                    <ul id="panel-nav">
+                        <li ><a href="#">Автомобили</a></li>
+                        <li><a href="#">Мототехника</a></li>
+                        <li><a href="#">Спецтехника</a></li>
+                    </ul>
+                </li>
+                <li><a href="auto-parts.html">АвтоЗапчасти</a></li>
+                <li><a href="new.html">Новости</a></li>
+                <li><a href="#">Помощь</a></li>
+                <li>
+                    <a href="#">Еще <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">Договор купли-продажи</a></li>
+                        <li><a href="#">Отзывы владельцов</a></li>
+                        <li><a href="#">О проекте</a></li>
+                        <li><a href="#">Техподдержка</a></li>
+                        <li><a href="#">Пользовательское соглашение</a></li>
+                    </ul>
+                </li>
+                <li class="btn-submit-an-ad"><a href="car-create.html">Подать объявление</a></li>
+                <li class="btn-login"><a href="login.html">Войти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="block-auth-register">
+        <div class="auth-register-left-input">
+            <p class="title-auth-register">Атворизация</p>
+            <div class="input-auth-register-block">
+                <p class="title-text-auth-register">Введите ваш логин</p>
+                <input type="text" class="input-auth-register">
+            </div>
+            <div class="input-auth-register-block">
+                <p class="title-text-auth-register">Введите ваш пароль</p>
+                <div class="paasword">
+                    <input type="password" class="input-auth-register" id="password-input" name="password">
+                    <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+                </div>
+            </div>
+            <div class="input-auth-register-checkbox">
+                <input type="checkbox" class="custom-checkbox" value="">
+                <label for="check">Запомнить меня</label>
+            </div>
+
+            <form class="btn-auth" action="main.html" target="_blank">
+                <button href="#">Войти</button>
+            </form>
+
+            <form class="btn-register" action="register.html" target="_blank">
+                <button href="#">Зарегистрироваться</button>
+            </form>
+                
+            <!-- <a href="#" class="test">Забыли пароль?</a> -->
+        </div>
+        <div class="auth-register-right-photo">
+            <img src="../all_img/logo_order/fon.jpeg" alt="fon">
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-all">
+            <div class="footer-block-left">
+                <div class="logo-footer">
+                    <img src="../all_img/logo_order/logo-white.png" alt="logo">
+                </div>
+                <div class="about-cooperation">
+                    <p>Drivers.ru — один из самых посещаемых автомобильных сайтов в российском интернете.</p>
+                </div>
+                <div class="follow-us">
+                    <p class="footer-block-all-title">Следуйте за нами</p>
+                    <div class="logo-site">
+                        <a href="#" class="icon-logo-site-vk"><img src="../all_img/logo_order/VK.png" id="icon-site-vk" alt="VK"></a>
+                        <a href="#" class="icon-logo-site-tg"><img src="../all_img/logo_order/TG.png" id="icon-site-tg" alt="TG"></a>
+                        <a href="#" class="icon-logo-site-ok"><img src="../all_img/logo_order/OK.png" id="icon-site-ok" alt="OK"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-block-center-right">
+                <p class="footer-block-all-title">Навигатор</p>
+                <div class="footer-navigator-flex">
+                    <ul>
+                        <li><a href="">Автомобили</a></li>
+                        <li><a href="">Мототехника</a></li>
+                        <li><a href="">Спецтехника</a></li>
+                        <li><a href="">АвтоЗапчасти</a></li>
+                        <li><a href="">Профиль</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Новости и статьи</a></li>
+                        <li><a href="">Подать объявление</a></li>
+                        <li><a href="">Договор купли-продажи</a></li>
+                        <li><a href="">Отзывы владельцов</a></li>
+                        <li><a href="">О проекте</a></li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+            <div class="footer-block-center-right">
+                <p class="footer-block-all-title">Служба поддержки</p>
+                <ul>
+                    <li><a href="">Пользовательское соглашение</a></li>
+                    <li><a href="">Безопосность</a></li>
+                    <li><a href="">Техподдержка</a></li>
+                    <li><a href="">Помощь</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="block-rights-reserved">
+            <p>© 2024 Все права защищены. <br>
+            Разработал Захаров Александр Дмиртриевич</p>
+        </div>    
+    </footer>
+
+    <script src="./js/password.js"></script>
+</body>
+</html>

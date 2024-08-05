@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+.block-auto-parts{
+    margin: 50px;
+}
+
+#search-auto-parts{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: auto;
+    height: auto;
+    padding: 25px;
+    /* justify-content: center; */
+     justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    flex-shrink: 0;
+    border-radius: 20px;
+
+    background: #F1F1F1;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.search-container {
+    width: auto;
+}
+
+#searchInput {
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    margin: auto;
+    
+    max-width: 86%;
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.widht-input-search{
+    width: 1610px;
+}
+.input-search{
+    /*text-align: center;*/
+    padding: 4px;
+    width: 100%;
+    height: 35px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 7px;
+    border: 1px solid #000;
+}
+
+.btn-search{
+    margin: 0px auto;
+    display: block;
+    width: 250px;
+    height: 45px;
+    flex-shrink: 0;
+    border: 0;
+    border-radius: 7px;
+    background: #007bff;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: .5s;
+
+    /* padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer; */
+}
+
+.title-search{
+    display: flex;
+    margin: 200px auto;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: .5s;
+}
+
+.seller-auto-parts{
+    display: flex;
+    margin-top: 30px;
+    justify-content: end;
+}
+
+.btn-seller-auto-parts{
+    display: flex;
+    width: 250px;
+    height: 45px;
+    
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+    border: 0;
+    border-radius: 7px;
+    background: #007bff;
+    text-decoration: none;
+    list-style-type: none;
+
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    transition: .5s;
+}
+
+.posts-all-auto-parts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.post-only-auto-parts{
+    display: block;
+
+    margin-top: 40px;
+    /* margin-right: 20px; */
+    width: auto;
+    height: auto;
+    padding: 25px;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    flex-shrink: 0;
+    border-radius: 20px;
+
+    background: #F1F1F1;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.photo-auto-parts{
+    overflow: hidden;
+    margin: 0;
+    /* padding: 20px 20px 20px 20px; */
+    width: 410px;
+    height: 270px;
+    /*background-color:#999;*/
+}
+
+.photo-auto-parts img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    /*max-width: 600px;
+    min-width: 600px;*/
+}
+
+.price-auto-parts-index p{
+    margin: 10px 0;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.title-auto-parts-index p{
+    width: 400px;
+
+    margin: 0;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.additionally-auto-parts{
+    display: flex;
+}
+
+.additionally-auto-parts p{
+    margin: 10px 0;
+
+    color: #888888;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#auto-parts-text{
+    margin-left: 5px;
+}
+
+.btn-post-auto-parts{
+    display: flex;
+
+    border-radius: 10px;
+    background-color: #1485FF;
+    width: auto;
+    height: 40px;
+}
+
+.btn-post-auto-parts a{
+    text-decoration: none;
+    margin: auto;
+    color: #fff;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* text-align: center; */
+}
+
+.btn-post-auto-parts:hover{
+    background: #004da0;
+    transition: .5s;
+}

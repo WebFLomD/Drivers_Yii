@@ -1,0 +1,62 @@
+.block-help{
+    display: flex;
+    margin: 0 50px 50px;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.block-help-lvl{
+    margin-top: 50px;
+
+
+
+    padding: 30px;
+    border-radius: 13px;
+    height: auto;
+    background: #F1F1F1;
+
+    box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.65);
+}
+
+.title-btn-help{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.title-help p, .btn-help a{
+    margin: 0;
+
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif; /* Установка шрифта*/
+    font-weight: 600; /* Задает вес. Доступные веса зависят от семейства шрифтов, которое установлено в данный момент*/
+    color: #606060; /* Цвет текста */
+}
+
+.btn-help a{
+    cursor:pointer;
+
+    transition: .5s;
+
+    &:hover{
+        color: #0077FF;
+
+        transition: .5s;
+    }
+}
+
+.info-text-help{
+    text-align: justify;
+
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; /* Установка шрифта*/
+    font-weight: 600; /* Задает вес. Доступные веса зависят от семейства шрифтов, которое установлено в данный момент*/
+    color: #606060; /* Цвет текста */
+}
+
+.hidden {
+    display: none;
+}

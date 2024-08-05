@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+.block-create-car{
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    justify-content: center;
+
+
+    width: 650px;
+    height: auto;
+
+    border-radius: 20px;
+    background: #FFF;
+
+    box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.65);
+}
+
+.car-create-left-input{
+    display: block;
+    padding: 0;
+    margin: auto;
+    position: relative;
+}
+
+.title-car-create{
+    text-align: center;
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.input-all-car-create{
+    text-align: center;
+    width: 500px;
+    height: 35px;
+
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-radius: 7px;
+    border: 1px solid #000;
+}
+
+.input-all-car-create-text{
+    max-width: 500px;
+    min-width: 500px;
+    height: 100px;
+    text-align: left;
+}
+
+.input-file-car-create{
+    text-align: center;
+    width: 500px;
+    /*height: 35px;*/
+
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-all-car-create{
+    margin-bottom: 5px;
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.field-autoparts-comments_user{
+    width: 500px;
+}
+
+#car-comments_user
+{
+    max-width: 500px;
+    min-width: 500px;
+    height: 150px;
+
+    padding: 10px;
+    text-align: left;
+}
+
+.btn-car-create{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-car-create button{
+    margin: 25px 0;
+    display: block;
+
+    width: 505px;
+    height: 35px;
+    flex-shrink: 0;
+
+    border-radius: 7px;
+    border: 1px solid #000;
+    background: none;
+
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    transition: .5s;
+}
+
+.btn-car-create button:hover{
+    color: #FFF;
+    background-color: #1485FF;
+    border: none;
+
+    transition: .5s;
+}

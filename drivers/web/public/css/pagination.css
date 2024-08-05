@@ -1,0 +1,44 @@
+/* Пагинация */
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.pagination li a, .disabled span{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #1485FF;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.pagination li a:hover, .disabled li a:hover{
+    background: #0a53be;
+    transition: .4s;
+}
+
+.page-link span{
+    font-size: 22px;
+}
+
+.page-link span:hover{
+    background: #0a53be;
+}

@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/fon.css">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/nav-footer.css">
+    <link href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.2-web/css/all.min.css" rel="stylesheet"> <!-- Профильная(Платная) Font Awesome -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости</title>
+</head>
+<body>
+
+    <header class="navigator">
+        <div class="logo-navigator">
+            <a href="index.html"><img src="img/logo-dark.png" alt="logo"></a>
+        </div>
+        <nav>
+            <ul class="nav-links-text">
+                <li>
+                    <a href="index.html">Техника</a>
+                    <ul id="panel-nav">
+                        <li ><a href="#">Автомобили</a></li>
+                        <li><a href="#">Мототехника</a></li>
+                        <li><a href="#">Спецтехника</a></li>
+                    </ul>
+                </li>
+                <li><a href="auto-parts.html">АвтоЗапчасти</a></li>
+                <li><a href="new.html">Новости</a></li>
+                <li><a href="#">Помощь</a></li>
+                <li>
+                    <a href="#">Еще <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">Договор купли-продажи</a></li>
+                        <li><a href="#">Отзывы владельцев</a></li>
+                        <li><a href="#">О проекте</a></li>
+                        <li><a href="#">Техподдержка</a></li>
+                        <li><a href="#">Пользовательское соглашение</a></li>
+                    </ul>
+                </li>
+                <li class="btn-submit-an-ad"><a href="car-create.html">Подать объявление</a></li>
+                <li class="btn-login"><a href="login.html">Войти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="block-new">
+        <div class="block-left-new">
+            <div class="title-new">
+                <p>Новости</p>
+            </div>
+            <div class="btn-create-new-post">
+                <button href="login.html"><i class="fa-solid fa-pen-to-square"></i> Создать Запись</button>
+            </div>
+            <div class="my-new-post">
+                <button class="btn-my-new-post">
+                    <div class="img-user-new">
+                        <img src="img/no_imagea_user.png" alt="">
+                    </div>
+                    <p>Мои посты</p>
+                </button>
+            </div>
+            
+        </div>
+
+        <div class="block-center-new">
+            
+            <div class="info-only-new-post">
+
+                <div class="img-user-name-title-data-category-new-post">
+                    <div class="img-user-name-title-category-new-post">
+                        <div class="img-user-create-new-post">
+                            <img src="img/no_imagea_user.png" alt="img-user">
+                        </div>
+                        <div class="name-title-category-new-post">
+                            <p>Иванов Иван</p>
+                            <a href="">Отзывы</a>
+                        </div>
+                    </div>
+
+                    <!-- <div class="data-create-new-post">
+                        <p>21.02.2024</p>
+                    </div> -->
+
+                </div>
+
+                <div class="description-post-new">
+                    <p></p>
+                </div>
+                <div class="photo-new-post">
+                    <img src="img/photo-car.jpg" alt="">
+                </div>
+
+                <div class="title-text-content-new-post">
+                    <div class="title-new-post">
+                        <h1>Заголовок</h1>
+                    </div>
+                    <div class="content-new-post">
+                        <p>Мы вынуждены отталкиваться от того, что современная методология разработки способствует подготовке и реализации благоприятных перспектив. А ещё тщательные исследования конкурентов освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, объединены в целые кластеры себе подобных.</p>
+                    </div>
+                </div>
+                <div class="like-views-data-post-new">
+                    <div class="like-views-new-post">
+                        <i class="fa-solid fa-heart"></i>
+                        <p id="likeCount" class="quantity-like">0</p>
+                        <p class="views-new-post"><i class="fa-solid fa-eye"></i> 200</p>
+                    </div>
+        
+                    <div class="data-create-new-post">
+                        <p>21.02.2024</p>
+                    </div>
+                </div>
+                <div class="like-container like-comments-btn-post-new">
+                    
+                    <div class="like-icon like-new-post" id="likeIcon" onclick="toggleLike()">
+                        <i class="fa-solid fa-heart"></i>
+                        <p>Нравится</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <h1>Комметарии</h1>
+
+            <div class="info-only-new-post all-comments-new-post">
+                
+                <div class="img-name-date-comments">
+                    <div class="img-name-user-comments">
+                        <div class="img-user-new-comments">
+                            <img src="img/no_imagea_user.png" alt="user">
+                        </div>
+                    
+                        <p>FLomD</p>
+                    </div>
+                    <p class="data-register-comments">10.10.2010</p>
+                </div>
+
+                <div class="comments-text">
+                    <p>Мы вынуждены отталкиваться от того, что современная методология разработки способствует подготовке и реализации благоприятных перспектив. А ещё тщательные исследования конкурентов освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, объединены в целые кластеры себе подобных.</p>
+                </div>
+                
+                
+            </div>
+
+            
+
+            <div class="info-only-new-post input-comments-post-new">
+                <input class="input-comments" type="text" placeholder="Написать комментарии...">
+                <a href="#" title="Отправить"><i class="fa-solid fa-paper-plane-top"></i></a>
+            </div>
+            
+
+        </div>
+
+        <div class="block-right-new">
+            <div class="advertisement-post">
+                <a href="#"><img src="img/advertisement.png" alt=""></a>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-all">
+            <div class="footer-block-left">
+                <div class="logo-footer">
+                    <img src="img/logo-white.png" alt="logo">
+                </div>
+                <div class="about-cooperation">
+                    <p>Drivers.ru — один из самых посещаемых автомобильных сайтов в российском интернете.</p>
+                </div>
+                <div class="follow-us">
+                    <p class="footer-block-all-title">Следуйте за нами</p>
+                    <div class="logo-site">
+                        <a href="#" class="icon-logo-site-vk"><img src="img/VK.png" id="icon-site-vk" alt="VK"></a>
+                        <a href="#" class="icon-logo-site-tg"><img src="img/TG.png" id="icon-site-tg" alt="TG"></a>
+                        <a href="#" class="icon-logo-site-ok"><img src="img/OK.png" id="icon-site-ok" alt="OK"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-block-center-right">
+                <p class="footer-block-all-title">Навигатор</p>
+                <div class="footer-navigator-flex">
+                    <ul>
+                        <li><a href="">Автомобили</a></li>
+                        <li><a href="">Мототехника</a></li>
+                        <li><a href="">Спецтехника</a></li>
+                        <li><a href="">АвтоЗапчасти</a></li>
+                        <li><a href="">Профиль</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Новости и статьи</a></li>
+                        <li><a href="">Подать объявление</a></li>
+                        <li><a href="">Договор купли-продажи</a></li>
+                        <li><a href="">Отзывы владельцов</a></li>
+                        <li><a href="">О проекте</a></li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+            <div class="footer-block-center-right">
+                <p class="footer-block-all-title">Служба поддержки</p>
+                <ul>
+                    <li><a href="">Пользовательское соглашение</a></li>
+                    <li><a href="">Безопосность</a></li>
+                    <li><a href="">Техподдержка</a></li>
+                    <li><a href="">Помощь</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="block-rights-reserved">
+            <p>© 2024 Все права защищены. <br>
+            Разработал Захаров Александр Дмиртриевич</p>
+        </div>    
+    </footer>
+
+    <script src="js/like-container.js"></script>
+
+</body>
+</html>

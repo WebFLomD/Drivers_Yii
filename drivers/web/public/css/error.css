@@ -1,0 +1,18 @@
+.col-lg-7{
+    color: red;
+}
+
+.invalid-feedback{
+    color: red;
+    transition: 1s;
+}
+
+.is-invalid{
+    border: 1px solid red;
+    transition: .2s;
+}
+
+.help-block{
+    color: red;
+    width: 370px;
+}

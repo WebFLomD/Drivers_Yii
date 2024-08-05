@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+.index-main-info{
+    margin: 50px;
+}
+
+.car-brand{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: auto;
+    height: auto;
+    padding: 25px;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    flex-shrink: 0;
+    border-radius: 20px;
+
+    background: #F1F1F1;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.brand{
+    display: flex;
+    width: auto;
+
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; /* Установка шрифта*/
+    font-weight: 600; /* Задает вес. Доступные веса зависят от семейства шрифтов, которое установлено в данный момент*/
+    color: #606060; /* Цвет текста */
+
+    border: #606060 solid 2.3px;
+    border-radius: 14px;
+    padding: 0;
+    margin: 7px;
+
+    transition: .5s;
+}
+
+.brand a{
+    text-decoration: none;
+    color: #606060;
+    padding: 20px;
+
+    transition: .5s;
+}
+
+.brand p{
+    color: #606060;
+    padding: 0 20px;
+}
+
+.brand:hover{
+    border: #ff7800 solid 2.3px;
+    transition: .5s;
+}
+
+.brand a:hover{
+    color: #ff7800;
+    transition: .5s;
+}
+
+.post-all-cars{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.post-only-cars{
+    display: block;
+
+    margin-top: 40px;
+    /* margin-right: 20px; */
+    width: auto;
+    height: auto;
+    padding: 25px;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    flex-shrink: 0;
+    border-radius: 20px;
+
+    background: #F1F1F1;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.photo-cars{
+    overflow: hidden;
+    margin: 0;
+    /* padding: 20px 20px 20px 20px; */
+    width: 410px;
+    height: 273px;
+    /*background-color:#999;*/
+}
+
+.photo-cars img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    /*max-width: 600px;
+    min-width: 600px;*/
+}
+
+.price-car-post-index p{
+    margin: 10px 0;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.title-car-index p{
+    width: 400px;
+    margin: 0;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.additionally{
+    display: flex;
+}
+
+#probeg-text{
+    margin-left: 5px;
+}
+
+
+.additionally p{
+    margin: 10px 0;
+
+    color: #888888;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn-post-car{
+    display: flex;
+
+    border-radius: 10px;
+    background-color: #1485FF;
+    width: auto;
+    height: 40px;
+
+    transition: .5s;
+}
+
+.btn-post-car a{
+    text-decoration: none;
+    margin: auto;
+    color: #fff;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* text-align: center; */
+}
+
+.btn-post-car:hover{
+    background: #004da0;
+    transition: .5s;
+}
+
+
+

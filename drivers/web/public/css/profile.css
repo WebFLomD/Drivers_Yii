@@ -1,0 +1,338 @@
+
+.block-profile{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-lvl-1{
+    display: flex;
+    justify-content: center;
+
+    position: sticky;
+    top: 30px;
+
+    width: 35%;
+    min-width: 700px;
+
+    padding: 20px;
+    border-radius: 13px;
+    /* width: 100%; */
+    height: 450px;
+    background: #F1F1F1;
+
+    box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.65);
+}
+
+.img-profile-user{
+    margin: auto;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    width: 245px;
+    height: 245px;
+
+    /* background-color: #606060; */
+}
+
+.img-profile-user img{
+    object-fit: cover;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+
+}
+
+.info-user-profile{
+    margin-left: 30px;
+}
+
+.username-user-profile{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+
+    margin: 0;
+}
+
+.text-info-user-profile{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: underline;
+
+    margin: 10px 0;
+}
+
+.only-info-user-profile{
+    display: flex;
+}
+
+.only-info-user-profile p{
+
+    margin: 9px 10px 9px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #606060;
+}
+
+/* Кнопки */
+
+
+
+.btn-update-user, .btn-favourites, .btn-exit{
+    color: #606060;
+    text-decoration: none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+    border: #606060 solid 2.5px;
+    border-radius: 16px;
+    padding: 13px 20px;
+
+    width: 200px;
+
+    transition: .5s;
+}
+
+#profile-all-btn{
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn-favourites:hover{
+    color: #fff;
+    background: #00ABE4;
+    border: #00ABE4 solid 2.5px;
+
+    /* #302683*/
+}
+
+.btn-update-user:hover{
+    color: #fff;
+    background: #0077FF;
+    border: #0077FF solid 2.5px;
+
+    transition: .5s;
+}
+
+.btn-exit:hover{
+    color: #fff;
+    background: #d40000;
+    border: #d40000 solid 2.5px;
+
+
+    
+    transition: .5s;
+}
+
+
+
+/**/
+
+.profile-lvl-2{
+    width: 100%;
+    margin-left: 45px;
+}
+
+.btn-profile-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-title{
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.btn-category-profile{
+    margin-left: 10px;
+    padding: 15px 30px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    background-color: #0077FF;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    border: 0;
+    transition: .5s;
+
+    cursor: pointer;
+
+    &:hover{
+        background-color: #004da0;;
+    }
+}
+
+
+.my-post-car-user-profile{
+    display: flex;
+
+    margin: 30px 0;
+
+    padding: 20px;
+    border-radius: 13px;
+    width: auto;
+    height: auto;
+    background: #F1F1F1;
+    box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.65);
+}
+
+.post-block-left-profile{
+    overflow: hidden;
+    margin: 0;
+    width: 580px;
+    height: 350px;
+    /* background-color: #999; */
+}
+
+.post-block-left-profile img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.all-info-car-profile{
+    margin: 0 20px;
+}
+
+.profile-info-name-car-post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-post-car{
+    margin: 0;
+    color: #606060;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.title-car-profile{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.info-title-car-profile{
+    color: #606060;
+    margin: 5px 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.text-info-auto-profile{
+    display: flex;
+}
+
+.text-info-auto-profile p{
+    margin: 7px 10px 7px 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.text-info-car-post-profile{
+    color: #606060;
+}
+
+.price-car-profile{
+    margin: 20px 0 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.all-btn-management-post-profile{
+    display: flex;
+}
+
+.all-btn-management-post-profile a{
+    display: flex;
+    color: #606060;
+    text-decoration: none;
+
+    margin-right: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+    border: #606060 solid 2.5px;
+    border-radius: 16px;
+    padding: 13px 20px;
+
+    /* width: 200px; */
+
+    transition: .5s;
+}
+
+#all-btn-management-post-profile a:hover{
+    color: #fff;
+    border: #0077FF solid 2.5px;
+    background: #0077FF;
+
+    transition: .5s;
+}
+
+#all-btn-del-post-profile a:hover{
+    color: #fff;
+    border: #d40000 solid 2.5px;
+    background: #d40000;
+
+    transition: .5s;
+}
+
+/**/
+.block-null-post{
+    display: flex;
+    margin: auto;
+    /*background: #717171;*/
+
+    width: 450px;
+    height: 450px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.block-null-post{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.status-new, .status-reviewed {
+    color: green;
+}
+.status-rejected {
+    color: red;
+}
