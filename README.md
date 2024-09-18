@@ -26,7 +26,10 @@ __Целью данного исследования__ является разр
 Вы можете ознакомиться с презентацией проекта [здесь](https://docs.google.com/presentation/d/1Rypg0BlPt0IPrKOGyrO51iNfLRMRf3CL/edit?usp=sharing&ouid=109328543018409875346&rtpof=true&sd=true).
 
 ## Инструкция для запуска сайта
-- Сначала скачайте файл с GitHub или клонируйте репозиторий Git: `git clone https://github.com/WebFLomD/Drivers_Yii.git`
+- Сначала скачайте файл с GitHub или клонируйте репозиторий Git:
+  ```
+  git clone https://github.com/WebFLomD/Drivers_Yii.git
+  ```
 - Затем папку `drivers` загрузите на сервер (OpenServer | Хостинг). Потом загрузите файл БД `drivers.sql` в MySQL (имя БД должен совпадать с файлом)
 - После загрузки файлов и БД- запустите сайт
 
